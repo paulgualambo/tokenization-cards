@@ -4,7 +4,7 @@ El proceso de tokenización funciona enviando los datos de la tarjeta al tokeniz
 
 ## Tecnologías
 
-node
+node 18
 
 typescript
 
@@ -79,9 +79,11 @@ Health
 
 
 Nuevo token
+
 ![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/98d7ec2d-f7d5-4a38-99e4-1c5f84b59715)
 
 ![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/bf27f73a-87d8-40a2-a499-43d488b9b6a4)
+
 
 Obtener token
 
@@ -94,8 +96,11 @@ Stack
 
 ![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/d8850ac0-e107-480d-b88f-c7ad01db3d8f)
 
+
 Apigateway
+
 ![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/a40486e6-86de-4bac-8c81-5ed7926e9984)
+
 
 Functions (Lambdas)
 
@@ -113,12 +118,11 @@ TTL
 
 ![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/876b4078-b6b8-4a7a-bedc-885a55715475)
 
-![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/0856b684-1129-4de3-8afd-39e86879d465)
-
 
 Ejecución local
 
 Agregar un nuevo token
+
 ```
 serverless invoke local --function addToken --path data-test/data2.json
 ```
