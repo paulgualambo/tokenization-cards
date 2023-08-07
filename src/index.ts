@@ -1,17 +1,16 @@
-import { APIGatewayProxyEvent, APIGatewayProxyResult } from "aws-lambda";
+import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
 
 export const health = async (
-  event: APIGatewayProxyEvent
+  event: APIGatewayProxyEvent,
 ): Promise<APIGatewayProxyResult> => {
-  
   return {
     statusCode: 200,
     body: JSON.stringify(
       {
-        event: event
+        event: event,
       },
       null,
-      2
+      2,
     ),
   };
 };
