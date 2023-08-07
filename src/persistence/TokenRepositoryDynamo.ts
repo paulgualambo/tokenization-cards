@@ -36,7 +36,7 @@ export class TokenRepositoryDynamo implements ITokenRepository {
     };
 
     //TTL
-    const ttlInSeconds = 2 * 60;
+    const ttlInSeconds = 15 * 60;
     const ttl = Math.floor(Date.now() / 1000) + ttlInSeconds;
     newToken['TimeToLive'] = ttl;
 
