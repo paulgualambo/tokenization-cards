@@ -110,7 +110,10 @@ Tabla dynamo
 TTL
 
 ![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/6d95669c-afd8-4ee4-9ebe-8d0a46e8bb11)
+
 ![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/876b4078-b6b8-4a7a-bedc-885a55715475)
+
+![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/0856b684-1129-4de3-8afd-39e86879d465)
 
 
 Ejecución local
