@@ -1,0 +1,57 @@
+[
+    {
+        "_id": "aa43defd-90d8-43fe-9e28-c93f356c02a9",
+        "colId": "history",
+        "containerId": "",
+        "name": "https://q3i5btov3l.execute-api.us-east-1.amazonaws.com/health",
+        "url": "https://q3i5btov3l.execute-api.us-east-1.amazonaws.com/health",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-08-06T20:01:38.616Z",
+        "modified": "2023-08-06T20:01:38.616Z",
+        "headers": [],
+        "params": [],
+        "tests": []
+    },
+    {
+        "_id": "1bdd4fb6-1ea9-4dd2-b400-4d522199a313",
+        "colId": "history",
+        "containerId": "",
+        "name": "https://q3i5btov3l.execute-api.us-east-1.amazonaws.com/v2/tokens",
+        "url": "https://q3i5btov3l.execute-api.us-east-1.amazonaws.com/v2/tokens/47d7c01c-82fe-4619-bef0-bc1fdf657030",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-08-06T20:04:43.825Z",
+        "modified": "2023-08-07T01:29:39.154Z",
+        "headers": [],
+        "params": [],
+        "auth": {
+            "type": "bearer",
+            "bearer": "pk_test_LstJoiskhHytsmksjgakKhs"
+        },
+        "tests": []
+    },
+    {
+        "_id": "feffe7dc-cad7-49c8-b521-5a27942cead6",
+        "colId": "history",
+        "containerId": "",
+        "name": "https://q3i5btov3l.execute-api.us-east-1.amazonaws.com/v2/tokens",
+        "url": "https://q3i5btov3l.execute-api.us-east-1.amazonaws.com/v2/tokens",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2023-08-06T20:04:58.329Z",
+        "modified": "2023-08-07T01:49:34.345Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n    \"email\":\"paul.gualambo@gmail.com\",\n    \"card_number\": \"358712562589124512\",\n    \"cvv\":\"888\",\n    \"expiration_year\":\"2021\",\n    \"expiration_month\":\"07\"\n}",
+            "form": []
+        },
+        "auth": {
+            "type": "bearer",
+            "bearer": "pk_test_LstJoiskhHytsmksjgakKhs"
+        },
+        "tests": []
+    }
+]
