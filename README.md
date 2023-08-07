@@ -5,15 +5,28 @@ El proceso de tokenización funciona enviando los datos de la tarjeta al tokeniz
 ## Tecnologías
 
 node
+
 typescript
+
 serverlees
+
 dynamodb
+
 diversos plugins
+
 aws-sdk, aws-lambda, middy y demas
 
+
+---
+
 linter
+
 prettier
+
 editorconfig
+
+
+---
 
 Thunder Client (apis)
 
@@ -62,20 +75,42 @@ Esto creara el stack, que posee las funciones y la tabla dynamo donde se almacen
 ### Thunder Client
 Health
 
-Nuevo token
+![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/5c92560e-53d8-4c89-87e1-6f421bc0f4f6)
 
-pk se envia tambien
+
+Nuevo token
+![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/98d7ec2d-f7d5-4a38-99e4-1c5f84b59715)
+
+![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/bf27f73a-87d8-40a2-a499-43d488b9b6a4)
 
 Obtener token
 
-Recursos en aws
+![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/6c39f51e-a877-4ba8-8039-0991b5b8dcb4)
+
+
+### Recursos en aws
+
 Stack
 
-Functions
+![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/d8850ac0-e107-480d-b88f-c7ad01db3d8f)
+
+Apigateway
+![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/a40486e6-86de-4bac-8c81-5ed7926e9984)
+
+Functions (Lambdas)
+
+![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/06d524d7-443c-40f8-9460-1f1edf41e66b)
+
 
 Tabla dynamo
 
+![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/d45d46d2-9dff-4834-857b-1d15f89ff4ac)
+
+
 TTL
+
+![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/6d95669c-afd8-4ee4-9ebe-8d0a46e8bb11)
+![image](https://github.com/paulgualambo/tokenization-cards/assets/2517404/876b4078-b6b8-4a7a-bedc-885a55715475)
 
 
 Ejecución local
@@ -93,6 +128,6 @@ pero antes editar la linea 39 al 41 con un nuevo id
 
 ```
     "pathParameters": {
-        "id": "ef4f22f4-b29e-47c3-a263-a123864e4f87"
+        "id": "{nuevo_id_generado}"
     },    
 ```    
